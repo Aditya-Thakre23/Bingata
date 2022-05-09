@@ -1,0 +1,39 @@
+/*Navbar styles*/
+
+
+  #myNavbar{
+    width:100%;
+    background-size: cover;
+    background-color: #4B7BE5;
+    height: 70px;
+    font-family:verdana;
+  }
+  nav{
+    width: 100%;
+    top: 0;
+    line-height: 50px;
+    
+    background-color: #4B7BE5;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+    padding-top: 10px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.7s all;
+    font-size: 20px;
+  }
+  nav ul li:hover{
+    background-color:#DDDDDD;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #EFEFEF;
+    padding: 30px;
+  }
+  .myLogo:hover {
+    background-color:#088;
+  }
